@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zubiya Samreen"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PRE"
+        android:text="PEOPLE"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RG1"
+        android:layout_margin="20dp">
+
+        <TextView android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tt1"
+            android:text="COURSE"
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textStyle="bold"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb1"
+        android:layout_margin="15dp"
+        android:text="BCA"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb2"
+        android:layout_margin="10dp"
+        android:text="BSc IT"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RG2"
+        android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tt2"
+        android:text="DEPARTMENT"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb3"
+        android:text="STU"
+        android:layout_margin="10dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb4"
+        android:text="SRWC"
+        android:layout_margin="10dp"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RG3"
+        android:layout_margin="16dp">
+
+        <TextView android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tt3"
+            android:text="YEAR"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb5"
+        android:text="FY"
+        android:layout_margin="10dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBb6"
+        android:text="Ty"
+        android:layout_margin="10dp"/>
+    </RadioGroup>
+
+    <Button android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bs"
+        android:text="SUBMIT"
+        android:textSize="15dp"/>
+</LinearLayout>
